@@ -3,7 +3,7 @@ import cx from "classnames";
 import { useMediaQuery } from "react-responsive";
 import { AppContext } from "./context";
 import Header from "./components/header/header";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, Navigate, useLocation } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import NavBarMobile from "./pages/Mobile";
 import styles from "./styles/app.module.scss";
@@ -82,6 +82,7 @@ function App() {
             {/* Define routes for the application */}
             <Routes>
               {/* Redirect from the root path to the loan calculator page */}
+              <Route path="/" element={<Navigate to="/home" replace />} />
 
               {ROUTES_MAIN.map((route) => (
                 <Route
