@@ -1,0 +1,16 @@
+export const LOAN_CALCULATOR_ENUM = {
+  title: "Loan Calculator",
+  loanAmountLabel: "Loan Amount",
+  termLabel: "Term (Years)",
+  interestRateLabel: "Annual Interest Rate",
+  calculateButton: "Calculate",
+  submitButton: "Submit",
+  loanSummaryTitle: "Loan Summary",
+  amountText: "Amount:",
+  termText: "Term:",
+  interestRateText: "Interest Rate:",
+  monthlyPaymentText: "Estimated Monthly Payment:",
+  invalidInputMessage: "Invalid input values",
+  submissionSuccessMessage: "Loan details submitted successfully!",
+  close: "Close",
+};

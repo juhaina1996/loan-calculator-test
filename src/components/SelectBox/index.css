@@ -1,0 +1,101 @@
+.dropdownContainer {
+  border-radius: 5px;
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #99b2c6;
+  @media screen and (max-width: 992px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+.dropdownTool {
+  width: 10px;
+  margin-left: 45px;
+}
+.dropdownInput {
+  width: auto;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 23px;
+  padding-right: 23px;
+  border: 1px solid #a1e6f6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 18px;
+    height: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.Select {
+  border: none;
+}
+.dropdownMenu {
+  margin-bottom: 10px;
+  padding-top: 19px;
+  background: linear-gradient(180deg, #2f3c51 0%, #1f2d43 100%);
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+  @media screen and (max-width: 992px) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
+.dropdown-item {
+  padding-left: 36px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  @media screen and (max-width: 992px) {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+  }
+}
+
+.dropdown-item:hover {
+  background: #223f56;
+  color: #a1e6f6;
+}
+
+.dropdown-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dropdown-tag-item {
+  background-color: #ddd;
+  padding: 2px 4px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-tag-close {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  padding: 5px;
+  background-color: #eee;
+}
+
+.errorMessage {
+  margin-left: 67px;
+  margin-top: 14px;
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #fd5252;
+}

@@ -1,0 +1,134 @@
+.loanForm {
+  padding: 20px 16px;
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.inputBox {
+  border: 1px solid #a1e6f6;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  background: none;
+
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+  margin-top: 10px;
+}
+.label {
+  margin: 0;
+  color: #99b2c6;
+}
+.title {
+  width: 500px;
+  padding: 20px 16px;
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 19px;
+  color: #fff;
+}
+.titleMob {
+  width: 100%;
+}
+/* Hide arrows in WebKit browsers (Chrome, Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Hide arrows in Edge and IE */
+input[type="number"] {
+  appearance: textfield;
+}
+
+/* Hide range slider controls in WebKit browsers */
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent; /* Removes default styling */
+}
+
+/* For Firefox */
+input[type="range"] {
+  -moz-appearance: none;
+}
+
+/* For Edge and IE */
+input[type="range"] {
+  appearance: none;
+}
+.button {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 10px 12px;
+  width: 40%;
+  border: 2px solid rgb(111, 111, 111, 0.3);
+  background: linear-gradient(180deg, #212c3d 0%, #101d2e 100%);
+  cursor: pointer;
+  border-radius: 4px;
+  color: #99b2c6;
+  margin: 7px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.button:hover {
+  color: #a1e6f6;
+}
+.popupOverlay {
+  position: fixed;
+  inset: 0px;
+  background: rgba(196, 196, 196, 0.15);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20000;
+  color: white;
+}
+.popupContent {
+  background: #081527;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  animation: zoomInAnimation 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}
+.error {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fd5252;
+}

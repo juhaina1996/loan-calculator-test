@@ -1,0 +1,55 @@
+.modalContent {
+  padding: 50px 106px 20px 106px;
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+.title {
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #99b2c6;
+
+  margin-bottom: 20px;
+}
+span {
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin-left: 6px;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.closeButton {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 4px 28px;
+
+  border: 2px solid rgb(111, 111, 111, 0.3);
+  background: linear-gradient(180deg, #212c3d 0%, #101d2e 100%);
+  cursor: pointer;
+  border-radius: 4px;
+  color: #99b2c6;
+  margin: 7px;
+}
+.closeButton:hover {
+  color: #a1e6f6;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}

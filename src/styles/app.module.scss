@@ -1,0 +1,214 @@
+html {
+  overflow: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin-right: 1rem;
+}
+
+.routes {
+  flex-grow: 1;
+}
+.fetchUSDTToSendContainer {
+  width: 554px;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fetchUSDTToSendContainerMob {
+  width: 88%;
+}
+.footerDiv {
+  position: fixed;
+  bottom: 26px;
+}
+
+.ferchUserDetailsContainer {
+  margin-top: 60px;
+  width: 554px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+.ferchUserDetailsContainerMob {
+  width: 88%;
+}
+
+.fetchHistoryDetails {
+  width: auto;
+  margin-right: 260px;
+  margin-left: 260px;
+  margin-bottom: 70px;
+  margin-top: 47px;
+  background: linear-gradient(180deg, #212c3d 0%, #101d2e 100%);
+  border-radius: 10px;
+  color: white;
+}
+.nextIcon {
+  padding-left: 6px;
+}
+.navBar {
+  z-index: 2;
+
+  background: #081527;
+  border-right: 1px solid #343339;
+  margin-top: 107px;
+  padding-top: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.navBar:hover {
+  color: #a1e6f6;
+}
+.navBarItems {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.navList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 41px;
+  width: 167px;
+  height: 45px;
+  color: #a5a2b8;
+  display: block;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.navLink:hover {
+  color: #a1e6f6;
+}
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #06152b;
+  z-index: 9;
+}
+
+.mobileMenu ul {
+  padding: 0;
+}
+
+.mobileMenu li {
+  margin-bottom: 40px;
+  list-style-type: none;
+}
+
+.mobileMenu a {
+  font-family: "Jura";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100px;
+}
+
+.mobileMenu a:hover {
+  color: #a1e6f6;
+}
+.navBarMobile {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 38px;
+  border-bottom: 1px solid #343339;
+  margin-bottom: 0;
+}
+.activeNavLink {
+  color: #a1e6f6;
+  background: linear-gradient(90deg, #212d3d 0%, #0e1a2c 100%);
+  border-radius: 5px;
+}
+.activeNavLinkMobile {
+  color: #a1e6f6;
+}
+
+.routesInMobile {
+  padding: 20px;
+  padding-right: 20px;
+}
+.fetchUSDContainer {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 80px;
+}
+.spinnerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerContainer {
+  position: fixed;
+  top: 12px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #081527;
+  border-bottom: 1px solid #343339;
+}
+.headerContainerMob {
+  position: static;
+  display: none;
+}
+.discordButton {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 23px;
+  width: 167px;
+  height: 45px;
+  color: white;
+  margin-left: 35px;
+  margin-right: 35px;
+  border: 2px solid rgb(111, 111, 111, 0.3);
+  background: linear-gradient(180deg, #212c3d 0%, #101d2e 100%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.discord {
+  height: 25px;
+  width: 25px;
+  margin-bottom: -3px;
+  margin-left: 20px;
+}
+.mainContentDiv {
+  display: flex;
+}
+.mainContentDivMob {
+  display: block;
+}
+.layoutDiv {
+  margin-left: 263px;
+  margin-top: 139px;
+}
+.layoutDivMob {
+  margin-left: 0px;
+  margin-top: 0px;
+}

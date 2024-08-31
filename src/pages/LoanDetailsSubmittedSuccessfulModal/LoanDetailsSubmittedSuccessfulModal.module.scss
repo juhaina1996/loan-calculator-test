@@ -1,0 +1,86 @@
+.submissionSuccesfullContainer {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 38px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.submissionSuccesfullContainerMob {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 17px;
+  line-height: 26px;
+  @media screen and (max-width: 350px) {
+    font-size: 15px;
+  }
+}
+.beforeContinuing {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 66px;
+  margin-right: 66px;
+  margin-bottom: 58px;
+}
+.termsOfUse,
+.privacyPolicy {
+  color: #f9b959;
+  text-decoration: none;
+}
+
+.closeButton {
+  border: 2px solid rgb(111, 111, 111, 0.3);
+  background: linear-gradient(180deg, #212c3d 0%, #101d2e 100%);
+}
+.closeButton {
+  font-family: "Metrophobic";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 123.8%;
+  letter-spacing: 0.035em;
+  padding: 9px 52px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.closeButtonMob {
+  font-size: 16px;
+  padding: 5px 0px;
+  width: 100%;
+  color: #ffff;
+}
+.closeButton:hover {
+  color: #ffff;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.buttonContainerMob {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.exclamationIcon {
+  width: 70px;
+  height: 70px;
+  padding-left: 4px;
+
+  margin-top: 40px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
