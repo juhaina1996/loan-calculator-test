@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "./DisplayLoanDetails.module.scss";
+import cx from "classnames";
+import { AppContext } from "../../context";
 
 // DisplayLoanDetails component to show loan details in a modal
 const DisplayLoanDetails = ({
@@ -9,8 +11,14 @@ const DisplayLoanDetails = ({
   monthlyPayment, // The calculated monthly payment
   handleCloseModal, // Function to close the modal
 }) => {
+  const { isMobile } = useContext(AppContext);
+
   return (
-    <div className={styles.modalContent}>
+    <div
+      className={cx(styles.modalContent, {
+        [styles.modalContentMob]: isMobile,
+      })}
+    >
       {/* Container for displaying loan details */}
       <div className={styles.subContainer}>
         <div>
