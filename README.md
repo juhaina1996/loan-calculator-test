@@ -50,3 +50,4 @@ Here's a high-level overview of the project structure:
 /index.js
 /index.js
 /App.js
+# loan-calculator-test
